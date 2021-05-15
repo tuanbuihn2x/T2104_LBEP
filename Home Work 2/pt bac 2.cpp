@@ -18,9 +18,6 @@ int main(){
 				printf("phuong trinh vo nghiem");
 			}
 		}
-		else if(c==0){
-			printf("phuong trinh co 1 nghiem x=0");
-		}
 		else{
 			x=-c/b;
 			printf("phuong trinh co 1 nghiem x=%.2f",x);
