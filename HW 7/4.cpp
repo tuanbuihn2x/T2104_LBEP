@@ -8,17 +8,13 @@ int main(){
 		scanf("%d",&a[i]);
 	}
 	int tmp=0,sum=0;
-	for(int i=0;i<n-1;i++){
+	for(int i=0;i<n;i++){
 		if(a[i]>0)
 		sum+=a[i];
-		else if(a[i]<0){
-			tmp=sum;
-			sum=0;
-		}
+		else
+		sum=0;
 		if(sum>tmp)
 		tmp=sum;
 	}
-	if(a[n-1]>tmp)
-	tmp=a[n-1];
 	printf("%d",tmp);
 }
