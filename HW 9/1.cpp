@@ -28,12 +28,15 @@ bool tk(int a[],int n,int x){
 
 int main(){
 	int n;
+	printf("nhap n: ");
 	scanf("%d",&n);
 	int a[n];
 	for(int i=0;i<n;i++){
+		printf("nhap phan tu thu %d: ",i+1);
 		scanf("%d",&a[i]);
 	}
 	int x;
+	printf("nhap x: ");
 	scanf("%d",&x);
 	sx(a,n);
 	if(tk(a,n,x))

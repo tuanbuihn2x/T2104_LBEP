@@ -2,7 +2,7 @@
 
 int main(){
 	int n;
-	printf("nhap n: ");
+	printf("nhap kich thuoc cua mang: ");
 	scanf("%d",&n);
 	int a[n];
 	for(int i=0;i<n;i++){
