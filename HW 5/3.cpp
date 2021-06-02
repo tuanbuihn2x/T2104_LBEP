@@ -2,9 +2,14 @@
 
 int main(){
 	int a,b;
-	scanf("%d%d",&a,&b);
-	if (a==0 || b==0)
-    printf("%d",a+b);
+	printf("nhap a: ");
+	scanf("%d",&a);
+	printf("nhap b: ");
+	scanf("%d",&b);
+	if (a==0 || b==0){
+		printf("uoc chung lon nhat cua a va b la: ");
+  		printf("%d",a+b);
+	}
     else{
     while (a*b != 0){ 
     if (a > b)
@@ -12,6 +17,6 @@ int main(){
     else
     b%=a;   
     }
-    printf("%d",a+b);
+    printf("uoc chung lon nhat cua a va b la: %d",a+b);
 	}
 }

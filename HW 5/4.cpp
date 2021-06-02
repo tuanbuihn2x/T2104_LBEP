@@ -2,7 +2,10 @@
 
 int main(){
 	int a,b;
-	scanf("%d%d",&a,&b);
+	printf("nhap a: ");
+	scanf("%d",&a);
+	printf("nhap b: ");
+	scanf("%d",&b);
 	int max=a,min=b;
 	if(a<b){
 	max=b;
@@ -10,7 +13,7 @@ int main(){
 	}
 	for(int i=1;i<=min;i++){
 		if((max*i)%min==0){
-			printf("%d",max*i);
+			printf("boi chung lon nhat cua a va b la: %d",max*i);
 			break;
 		}
 	}
