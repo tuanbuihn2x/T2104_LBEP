@@ -20,7 +20,10 @@ int bcnn(int a,int b){
 
 int main(){
 	int a,b;
-	scanf("%d%d",&a,&b);
-	printf("%d",bcnn(a,b));
+	printf("nhap a: ");
+	scanf("%d",&a);
+	printf("nhap b: ");
+	scanf("%d",&b);
+	printf("boi chung nho nhat cua a va b la: %d",bcnn(a,b));
 }
 

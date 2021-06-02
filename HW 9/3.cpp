@@ -27,7 +27,10 @@ int ucln(int a,int b){
 }
 int main(){
 	int a,b;
-	scanf("%d%d",&a,&b);
-	printf("%d",ucln(a,b));
+	printf("nhap a: ");
+	scanf("%d",&a);
+	printf("nhap b: ");
+	scanf("%d",&b);
+	printf("uoc chung lon nhat cua a va b la: %d",ucln(a,b));
 }
 
